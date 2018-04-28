@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+*{
+  margin: 0;
+  padding: 0;
+  /*box-sizing determina el tamaño del elemento */
+  /*  border-box menos el padding */
+  box-sizing: border-box;
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Indie Flower', cursive;
+}
+header.main {
+  height: 80px;
+  /* background-color:rgb(23, 203, 150) ; */
+  border: 1px solid rgb(193, 118, 238);
+}
+
+.main .logo{
+  width: 30%;
+  height: inherit;/* inherit es como el 100% de la pantalla*/
+  font-size: 40px;
+  line-height: 80px; /*line-height como se va a dividir el texto*/
+  padding: 20px;
+  float: left;
+  /* background-color: rgb(47, 157, 227); */
+}
+/* .logo span{
+  font-size: 30px;
+} */
+.main nav{
+  height: inherit;
+  /* background-color: rgb(240, 149, 214); */
+  float: right;
+  width: 30%;
+  font-size: 25px;
+
+}
+.main nav > ul{
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+.main nav > ul > li{
+  width: 33.33%;
+  float: left;
+  height: inherit;
+  text-align: center;
+  line-height: 80px;
+}
+.main nav>ul>li>a:visited {
+  color: rgb(13, 11, 14);
+}
